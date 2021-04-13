@@ -3,6 +3,14 @@
     background-color: #1ABC9C;
 }
 
+.bg-blue{
+    background-color: #3A546D;
+}
+
+.bg-navy{
+    background-color: #2C3E50;
+}
+
 /* cards color */
 .bg-card-1{
     background-color: #BA4B63;
@@ -32,7 +40,11 @@
 /* nav */
 nav{
     height: 70px; /* altezza fissa da togliere */
-    background-color: #2C3E50;
+}
+
+.left_nav,
+.right_nav{
+    height: 50px;
 }
 
 /* hero image */
@@ -43,7 +55,7 @@ nav{
 /* SITE MAIN */
 /* portfolio section */
 .card{
-    height: 200px;
+    height: 200px; /* altezza fissa da togliere */
 }
 
 /* about section */
@@ -52,6 +64,10 @@ nav{
 }
 
 .about_text{
-    height: 150px;
+    height: 150px; /* altezza fissa da togliere */
 }
 
+/* SITE FOOTER */
+.text_footer{
+    height: 150px; /* altezza fissa da togliere */
+}
