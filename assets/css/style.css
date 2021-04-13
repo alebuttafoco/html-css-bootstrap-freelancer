@@ -1,0 +1,57 @@
+/* UTILITY */
+.bg-green{
+    background-color: #1ABC9C;
+}
+
+/* cards color */
+.bg-card-1{
+    background-color: #BA4B63;
+}
+
+.bg-card-2{
+    background-color: #1EA4B6;
+}
+
+.bg-card-3{
+    background-color: #140F0F;
+}
+
+.bg-card-4{
+    background-color: #1C83C1;
+}
+
+.bg-card-5{
+    background-color: #0E38B5;
+}
+
+.bg-card-6{
+    background-color: #CCB2A3;
+}
+
+/* SITE HEADER */
+/* nav */
+nav{
+    height: 70px; /* altezza fissa da togliere */
+    background-color: #2C3E50;
+}
+
+/* hero image */
+.hero_image{
+    height: 400px; /* altezza fissa da togliere */
+}
+
+/* SITE MAIN */
+/* portfolio section */
+.card{
+    height: 200px;
+}
+
+/* about section */
+.about{
+    height: 400px; /* altezza fissa da togliere */
+}
+
+.about_text{
+    height: 150px;
+}
+
