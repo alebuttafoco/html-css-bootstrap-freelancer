@@ -31,6 +31,14 @@ h5{
     font-size: 25px;
 }
 
+.right_nav a{
+    border: 1px solid #2C3E50;
+}
+
+.right_nav a:hover{
+    border: 1px solid white;
+}
+
 /* hero image */
 .hero_image img{
     width: 200px;
@@ -67,6 +75,12 @@ h5{
     font-size: 1.2rem;
 }
 
+/* contact section */
+::-webkit-input-placeholder {
+  color: #2C3E50 !important ;
+  font-weight: 500;
+}
+
 /* SITE FOOTER */
 .icon_lg{
     font-size: 1.5rem;
@@ -88,11 +102,15 @@ h5{
     padding: 10px 12px;
 }
 
+.social_links i:hover{
+    background-color: #1ABC9C;
+}
+
 .copy_text{
     font-size: 14px;
 }
 
-/* MEDIA QUERY MD */
+/* MEDIA QUERY */
 @media screen and (min-width: 768px) and (max-width:991.98px){
     nav h3{
         font-size: x-large
