@@ -92,8 +92,44 @@ h5{
     font-size: 14px;
 }
 
+/* MEDIA QUERY MD */
 @media screen and (min-width: 768px) and (max-width:991.98px){
+    nav h3{
+        font-size: x-large
+    }
+
+    .hero_title{
+        font-size: 3.5rem;
+    }
+
+    .hero_text{
+        font-size: 1.5rem;
+    }
+
+    .section_title{
+        font-size: 3rem;
+    }
+
+    .fa-star{
+        font-size: 2rem;
+    }
+
     .text_footer .address{
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767.98px) {
+    .title{
+        font-size: large;
+    }   
+
+    .fa-star{
+        font-size: 2rem;
+    }
+
+    .address,
+    .about_text{
+        font-size: x-large;
     }
 }
