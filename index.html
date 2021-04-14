@@ -49,9 +49,9 @@
         <div class="hero_image text-white bg-green d-flex flex-column align-items-center py-5">
             <img class="mb-1" src="./assets/img/avatar.svg" alt="avatar image">
             <h1 class="m-0">start bootstrap</h1>
-            
+
             <!-- star icon -->
-            <div class="star_icon_white d-flex align-items-center py-3">
+            <div class="star_icon_white text-white d-flex align-items-center py-3">
                 <i class="fas fa-star px-4"></i>
             </div>
 
@@ -64,7 +64,7 @@
     <main>
         <!-- PORTFOLIO section -->
         <section class="portfolio py-5">
-            <h2 class="text-center">portfolio</h2>
+            <h2 class="text_navy text-center">portfolio</h2>
             <div class="star_icon_black d-flex align-items-center d-flex justify-content-center py-3">
                 <i class="fas fa-star px-4"></i>
             </div>
@@ -107,27 +107,49 @@
 
         <!-- ABOUT section -->
         <section class="about bg-green d-flex flex-column align-items-center py-5">
-            <h2></h2>
+            <h2 class="text-white">about</h2>
+            <!-- star icon -->
+            <div class="star_icon_white text-white d-flex align-items-center py-3">
+                <i class="fas fa-star px-4"></i>
+            </div>
+
             <div class="container">
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="about_text border col"></div>
-                    <div class="about_text border col"></div>
+                <div class="row row-cols-1 row-cols-md-2 mb-md-2">
+                    <div class="about_text text-white mb-3 mb-md-0 col">
+                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    </div>
+                    <div class="about_text text-white mb-3 mb-md-0 col">
+                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point.</p>
+                    </div>
                 </div>
             </div>
-            <span class="btn"></span>
+            <span class="btn text-white btn-outline-light"><i class="text-white mr-2 fas fa-download"></i>Download</span>
         </section>
 
         <!-- CONTACT ME section -->
         <section class="contact  d-flex flex-column align-items-center py-5">
-            <h2></h2>
+            <h2 class="text_navy">contact me</h2>
+            <!-- star icon -->
+            <div class="star_icon_black text-black d-flex align-items-center py-3">
+                <i class="fas fa-star px-4"></i>
+            </div>
+
             <div class="container">
                 <form>
                     <div class="form-group">
-                        <label for=""></label>
-                        <input type="text" class="form-control" id="" aria-describedby="Help">
-                        <small id="Help" class="form-text text-muted"></small>
+                        <input type="text" class="form-control border-top-0 border-left-0 border-right-0" id="" aria-describedby="Help" placeholder="Name">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="form-group">
+                        <input type="email" class="form-control border-top-0 border-left-0 border-right-0" id="" aria-describedby="Help" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control border-top-0 border-left-0 border-right-0" id="" aria-describedby="Help" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id=""  rows="7" class="form-control border-top-0 border-left-0 border-right-0" id="" aria-describedby="Help" placeholder="Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn bg-green text-white">Send</button>
                 </form>
             </div>
         </section>
@@ -139,15 +161,30 @@
         <div class="footer_top bg-blue py-5">
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-3">
-                    <div class="text_footer border col"></div>
-                    <div class="text_footer border col"></div>
-                    <div class="text_footer border col"></div>
+                    <div class="text_footer text-center col text-white">
+                        <h5>location</h5>
+                        <span class="address">2215 John Daniel Drive Clark, MO</span>
+                        <span class="address d-block ">54243</span>
+                    </div>
+                    <div class="text_footer text-center col text-white my-5 m-md-0">
+                        <h5>around the web</h5>
+                        <div class="social_links ">
+                            <i class="fab fa-facebook-f icon_lg border rounded-circle mx-2 mx-md-0 mx-lg-2"></i>
+                            <i class="fab fa-google-plus-g icon_lg border rounded-circle mx-2 mx-md-0 mx-lg-2"></i>
+                            <i class="fab fa-twitter icon_lg border rounded-circle mx-2 mx-md-0 mx-lg-2"></i>
+                            <i class="fab fa-linkedin-in icon_lg border rounded-circle mx-2 mx-md-0 mx-lg-2"></i>
+                        </div>
+                    </div>
+                    <div class=" text-center col text-white">
+                        <h5>about freelancer</h5>
+                        <p class="">Freelane is a free to use, open source Bootstrap theme created by <span class="text_green">Start Bootstrap</span>.</p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="footer_bottom bg-navy py-4 d-flex justify-content-center">
-            <span></span>
-        </div>
+            <span class="text-white">Copyright &copy; Your Website 2019</span>
+        </div> 
     </footer>
     <!-- /FOOTER -->
 </body>

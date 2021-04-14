@@ -3,6 +3,10 @@
     background-color: #1ABC9C;
 }
 
+.text_green{
+    color: #1ABC9C;
+}
+
 .bg-blue{
     background-color: #3A546D;
 }
@@ -11,9 +15,13 @@
     background-color: #2C3E50;
 }
 
-/* uppercase */
+.text_navy{
+    color: #2C3E50;
+}
+
 .hero_image,
-h2{
+h2,
+h5{
     text-transform: uppercase;
 }
 
@@ -45,7 +53,7 @@ h2{
     display: inline-block;
     width: 100px;
     height: 2px;
-    background-color: black;
+    background-color: #2C3E50;
 }
 
 /* SITE MAIN */
@@ -55,15 +63,33 @@ h2{
 }
 
 /* about section */
-.about{
-    height: 400px; /* altezza fissa da togliere */
-}
-
-.about_text{
-    height: 150px; /* altezza fissa da togliere */
+.about p{
+    font-size: 1.2rem;
 }
 
 /* SITE FOOTER */
-.text_footer{
-    height: 150px; /* altezza fissa da togliere */
+.icon_lg{
+    font-size: 1.5rem;
+}
+
+.fa-facebook-f{
+    padding: 10px 15px;
+}
+
+.fa-google-plus-g{
+    padding: 10px 8px;
+}
+
+.fa-twitter{
+    padding: 10px 10px;
+}
+
+.fa-linkedin-in{
+    padding: 10px 12px;
+}
+
+@media screen and (min-width: 768px) and (max-width:991.98px){
+    .text_footer .address{
+        font-size: 14px;
+    }
 }
