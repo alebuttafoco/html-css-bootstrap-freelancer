@@ -13,6 +13,10 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
     <title>Bootstrap Freelancer</title>
 </head>
 
@@ -20,18 +24,23 @@
     <!-- HEADER -->
     <header>
         <!-- site nav -->
-        <nav class="nav bg-navy">
+        <nav class="nav bg-navy py-3">
             <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="left_nav col-11 col-md-4  border">
-                        <h2 class="title"></h2>
+                <div class="row d-flex justify-content-between align-items-center">
+                    <!-- left -->
+                    <div class="left_nav col-11 col-md-4">
+                        <h3 class="title text-white m-0">START BOOTSTRAP</h3>
                     </div>
-                    <div class="menu col-1 border d-md-none"></div>
-                    <div class="right_nav d-none d-md-block col-4 border">
-                        <a class="nav-link" href="#"></a>
-                        <a class="nav-link" href="#"></a>
-                        <a class="nav-link" href="#"></a>
+                    
+                    <!-- right -->
+                    <div class="col-1 d-md-none"><i class="fas fa-bars text-white pt-1"></i></div>
+
+                    <div class="right_nav col-4 d-none d-md-flex">
+                        <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                        <a class="nav-link text-white" href="#">ABOUT</a>
+                        <a class="nav-link text-white" href="#">CONTACT</a>
                     </div>
+
                 </div>
             </div>
         </nav>

@@ -38,13 +38,8 @@
 
 /* SITE HEADER */
 /* nav */
-nav{
-    height: 70px; /* altezza fissa da togliere */
-}
-
-.left_nav,
-.right_nav{
-    height: 50px;
+.fa-bars{
+    font-size: 25px;
 }
 
 /* hero image */
