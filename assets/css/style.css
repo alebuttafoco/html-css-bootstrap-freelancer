@@ -44,7 +44,23 @@
 
 /* hero image */
 .hero_image{
-    height: 400px; /* altezza fissa da togliere */
+    text-transform: uppercase;
+}
+
+.hero_image img{
+    width: 200px;
+}
+
+.fa-star{
+    font-size: large;
+}
+
+.star_icon::after, .star_icon::before{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
 }
 
 /* SITE MAIN */
