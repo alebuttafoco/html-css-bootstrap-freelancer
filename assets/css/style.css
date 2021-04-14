@@ -88,6 +88,10 @@ h5{
     padding: 10px 12px;
 }
 
+.copy_text{
+    font-size: 14px;
+}
+
 @media screen and (min-width: 768px) and (max-width:991.98px){
     .text_footer .address{
         font-size: 14px;
